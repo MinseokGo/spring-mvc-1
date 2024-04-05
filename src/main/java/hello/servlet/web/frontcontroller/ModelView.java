@@ -6,10 +6,16 @@ import java.util.Map;
 public class ModelView {
 
     private final String viewName;
-    private final Map<String, Object> model = new HashMap<>();
+    private final Map<String, Object> model;
 
-    public ModelView(String viewName) {
+    private ModelView(String viewName) {
         this.viewName = viewName;
+        model = new HashMap<>();
+    }
+
+    private ModelView(String viewName, Map<String, Object> model) {
+        this.viewName = viewName;
+        this.model = model;
     }
 
     public String getViewName() {
@@ -18,5 +24,13 @@ public class ModelView {
 
     public Map<String, Object> getModel() {
         return model;
+    }
+
+    public static ModelView from(String viewName) {
+        return new ModelView(viewName);
+    }
+
+    public static ModelView valueOf(String viewName, Map<String, Object> model) {
+        return new ModelView(viewName, model);
     }
 }

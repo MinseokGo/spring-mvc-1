@@ -18,7 +18,7 @@ public class MemberSaveControllerV3 implements ControllerV3 {
         Member member = new Member(username, age);
         memberRepository.save(member);
 
-        ModelView modelView = new ModelView("save-result");
+        ModelView modelView = ModelView.from("save-result");
         modelView.getModel()
                 .put("member", member);
         return modelView;
