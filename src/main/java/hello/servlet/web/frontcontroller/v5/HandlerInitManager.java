@@ -29,7 +29,7 @@ public class HandlerInitManager {
     public static HandlerInitManager getInstance() {
         synchronized (HandlerInitManager.class) {
             if (handlerInitManager == null) {
-                return new HandlerInitManager();
+                handlerInitManager = new HandlerInitManager();
             }
         }
         return handlerInitManager;
