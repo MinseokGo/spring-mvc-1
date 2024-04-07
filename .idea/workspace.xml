@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/HelloData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/request/RequestParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/request/RequestParamController.java" afterDir="false" />
     </list>
@@ -266,7 +267,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="11908000" />
+      <workItem from="1712471680515" duration="13560000" />
     </task>
     <servers />
   </component>
