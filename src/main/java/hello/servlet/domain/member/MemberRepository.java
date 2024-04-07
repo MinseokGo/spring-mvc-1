@@ -12,13 +12,18 @@ public class MemberRepository {
     private static final Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;
 
-    private static final MemberRepository INSTANCE = new MemberRepository();
+    private static volatile MemberRepository memberRepository;
 
     private MemberRepository() {
     }
 
     public static MemberRepository getInstance() {
-        return INSTANCE;
+        synchronized (MemberRepository.class) {
+            if (memberRepository == null) {
+                memberRepository = new MemberRepository();
+            }
+        }
+        return memberRepository;
     }
 
     public Member save(Member member) {
