@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
-@Component("/springmvc/old-controller")
+@Component("/hello/springmvc/old-controller")
 public class OldController implements Controller {
 
     @Override

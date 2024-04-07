@@ -1,5 +1,7 @@
 logging:
   level:
+    hello:
+      springmvc: debug
     org:
       apache:
         coyote:
