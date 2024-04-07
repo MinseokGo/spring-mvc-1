@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/LogTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/requestmapping/MappingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/servlet/ServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/SpringMvc1Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/SpringMvc1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/SpringMvc1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/MyHttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/MyHttpRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/OldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/OldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +121,7 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "spring.configuration.checksum": "157d54fd9df205d8d347143f2e130165",
     "vue.rearranger.settings.migration": "true"
   }
@@ -277,7 +266,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="5425000" />
+      <workItem from="1712471680515" duration="7157000" />
     </task>
     <servers />
   </component>
