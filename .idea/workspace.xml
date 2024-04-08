@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/ItemServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/basic/legacy-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/dto/ItemUpdateParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/itemservice/domain/item/ItemRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberSaveServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/legacy-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +102,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.ItemRepositoryTest.executor": "Run",
+    "JUnit.ItemRepositoryTest.findAllItemsTest.executor": "Run",
+    "JUnit.ItemRepositoryTest.itemSaveTest.executor": "Run",
+    "JUnit.ItemRepositoryTest.updateItemTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -143,6 +139,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/basic" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/response" />
       <recent name="$PROJECT_DIR$/src/main/webapp/basic" />
@@ -160,78 +157,69 @@
       <recent name="hello.servlet.web.frontcontroller.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
-    <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.servlet.domain.member.MemberRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.ItemRepositoryTest">
+    <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itemservice.domain.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itemservice.domain.item" />
+      <option name="MAIN_CLASS_NAME" value="itemservice.domain.item.ItemRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.servlet.domain.member.MemberRepositoryTest.findAll&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="ItemRepositoryTest.findAllItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itemservice.domain.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itemservice.domain.item" />
+      <option name="MAIN_CLASS_NAME" value="itemservice.domain.item.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="findAllItemsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.servlet.domain.member.MemberRepositoryTest.save&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="ItemRepositoryTest.itemSaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itemservice.domain.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itemservice.domain.item" />
+      <option name="MAIN_CLASS_NAME" value="itemservice.domain.item.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="itemSaveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemRepositoryTest.updateItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itemservice.domain.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itemservice.domain.item" />
+      <option name="MAIN_CLASS_NAME" value="itemservice.domain.item.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="updateItemTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="servlet.main" />
@@ -255,10 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemRepositoryTest" />
+        <item itemvalue="JUnit.ItemRepositoryTest.updateItemTest" />
+        <item itemvalue="JUnit.ItemRepositoryTest.findAllItemsTest" />
+        <item itemvalue="JUnit.ItemRepositoryTest.itemSaveTest" />
         <item itemvalue="Spring Boot.ItemServiceApplication" />
-        <item itemvalue="Gradle.MemberRepositoryTest" />
-        <item itemvalue="Gradle.MemberRepositoryTest.findAll" />
-        <item itemvalue="Gradle.MemberRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +283,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="25069000" />
+      <workItem from="1712471680515" duration="29092000" />
     </task>
     <servers />
   </component>
