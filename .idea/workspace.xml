@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/springmvc/basic/response/ResponseViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/response/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/ItemServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/basic/legacy-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/servlet/web/servlet/MemberSaveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/legacy-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +117,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ItemServiceApplication.executor": "Run",
     "Spring Boot.SpringMvc1Application.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -135,6 +143,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/basic" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/response" />
       <recent name="$PROJECT_DIR$/src/main/webapp/basic" />
     </key>
@@ -151,7 +160,7 @@
       <recent name="hello.servlet.web.frontcontroller.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringMvc1Application">
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
     <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -224,6 +233,19 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="servlet.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="itemservice.ItemServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itemservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringMvc1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="servlet.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.SpringMvc1Application" />
@@ -233,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ItemServiceApplication" />
         <item itemvalue="Gradle.MemberRepositoryTest" />
         <item itemvalue="Gradle.MemberRepositoryTest.findAll" />
         <item itemvalue="Gradle.MemberRepositoryTest.save" />
@@ -271,7 +294,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="21546000" />
+      <workItem from="1712471680515" duration="25069000" />
     </task>
     <servers />
   </component>
