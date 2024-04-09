@@ -2,7 +2,9 @@ package itemservice.web.basic;
 
 import itemservice.domain.item.Item;
 import itemservice.domain.item.ItemRepository;
+import itemservice.domain.item.dto.ItemUpdateParameter;
 import itemservice.web.basic.dto.AddItemInfo;
+import itemservice.web.basic.dto.EditItemInfo;
 import jakarta.annotation.PostConstruct;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -47,6 +49,20 @@ public class BasicItemController {
         model.addAttribute("item", item);
 
         return "/basic/item";
+    }
+
+    @GetMapping("{itemId}/edit")
+    public String editForm(@PathVariable Long itemId, Model model) {
+        Item item = itemRepository.findById(itemId);
+        model.addAttribute("item", item);
+        return "basic/editForm";
+    }
+
+    @PostMapping("{itemId}/edit")
+    public String edit(@PathVariable Long itemId, EditItemInfo editItem) {
+        ItemUpdateParameter update = editItem.toItemUpdateParameter();
+        itemRepository.update(itemId, update);
+        return "redirect:/basic/items/{itemId}";
     }
 
     @PostConstruct

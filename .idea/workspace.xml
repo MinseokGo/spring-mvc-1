@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/web/basic/dto/AddItemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/web/basic/dto/EditItemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/basic/editForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/itemservice/web/basic/BasicItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itemservice/web/basic/BasicItemController.java" afterDir="false" />
     </list>
@@ -58,6 +59,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -284,7 +286,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="39143000" />
+      <workItem from="1712471680515" duration="40136000" />
     </task>
     <servers />
   </component>
