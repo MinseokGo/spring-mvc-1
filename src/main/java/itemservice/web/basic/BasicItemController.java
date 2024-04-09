@@ -44,11 +44,11 @@ public class BasicItemController {
     @PostMapping("/add")
     public String addItemV1(AddItemInfo addItem, Model model) {
         Item item = addItem.toEntity();
-        itemRepository.save(item);
+        Item savedItem = itemRepository.save(item);
 
-        model.addAttribute("item", item);
+        model.addAttribute("item", savedItem);
 
-        return "/basic/item";
+        return "redirect:/basic/items/" + savedItem.getId();
     }
 
     @GetMapping("{itemId}/edit")
