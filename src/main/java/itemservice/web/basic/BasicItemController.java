@@ -2,6 +2,7 @@ package itemservice.web.basic;
 
 import itemservice.domain.item.Item;
 import itemservice.domain.item.ItemRepository;
+import itemservice.web.basic.dto.AddItemInfo;
 import jakarta.annotation.PostConstruct;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -39,8 +40,13 @@ public class BasicItemController {
     }
 
     @PostMapping("/add")
-    public String save() {
-        return "xxx";
+    public String addItemV1(AddItemInfo addItem, Model model) {
+        Item item = addItem.toEntity();
+        itemRepository.save(item);
+
+        model.addAttribute("item", item);
+
+        return "/basic/item";
     }
 
     @PostConstruct
