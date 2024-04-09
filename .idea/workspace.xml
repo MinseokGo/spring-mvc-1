@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eef1712-aca0-4daa-bb9a-d7849aee9a9f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/itemservice/domain/item/dto/ItemUpdateParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/itemservice/domain/item/ItemRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/items.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +120,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/minseokgo/Documents/GitHub/spring-mvc-1/src/main/webapp/WEB-INF/views",
+    "last_opened_file_path": "/Users/minseokgo/Documents/GitHub/spring-mvc-1/src/main/resources/static/css",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,6 +136,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -157,7 +158,7 @@
       <recent name="hello.servlet.web.frontcontroller.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ItemRepositoryTest">
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
     <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="servlet.test" />
       <extension name="coverage">
@@ -243,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ItemServiceApplication" />
         <item itemvalue="JUnit.ItemRepositoryTest" />
         <item itemvalue="JUnit.ItemRepositoryTest.updateItemTest" />
         <item itemvalue="JUnit.ItemRepositoryTest.findAllItemsTest" />
         <item itemvalue="JUnit.ItemRepositoryTest.itemSaveTest" />
-        <item itemvalue="Spring Boot.ItemServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +284,7 @@
       <workItem from="1712470985212" duration="473000" />
       <workItem from="1712471466380" duration="126000" />
       <workItem from="1712471630306" duration="43000" />
-      <workItem from="1712471680515" duration="29092000" />
+      <workItem from="1712471680515" duration="31617000" />
     </task>
     <servers />
   </component>
