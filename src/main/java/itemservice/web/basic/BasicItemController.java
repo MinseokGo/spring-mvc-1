@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @RequiredArgsConstructor
@@ -42,13 +43,14 @@ public class BasicItemController {
     }
 
     @PostMapping("/add")
-    public String addItemV1(AddItemInfo addItem, Model model) {
+    public String addItemV1(AddItemInfo addItem, RedirectAttributes redirectAttributes) {
         Item item = addItem.toEntity();
         Item savedItem = itemRepository.save(item);
 
-        model.addAttribute("item", savedItem);
+        redirectAttributes.addAttribute("itemId", savedItem.getId());
+        redirectAttributes.addAttribute("status", true);
 
-        return "redirect:/basic/items/" + savedItem.getId();
+        return "redirect:/basic/items/{itemId}";
     }
 
     @GetMapping("{itemId}/edit")
